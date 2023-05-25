@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Chef</title>
+    <style type="text/css">
+        *{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+/*            background-color: gray;*/
+
+        }
+        .navbar {
+    display: flex;
+/*    align-items: center;*/
+    justify-content: space-around;
+    line-height: 2rem;
+    background-color:#F8F8FF ;
+
+}
+.navbar a:hover{
+    color:red;
+}
+.image{
+    text-align: left;
+    margin-left: 70px;
+    margin-top: 20px;
+}
+.left h1 {
+    color: #f53117;
+    font-size: 2.5rem;
+    margin-top: 30px;
+    margin-right: 100px;
+
+
+}
+.right ul{
+    display: flex;
+    list-style: none;
+    margin-top: 20px;
+    margin-left: 300px;
+
+}
+.right ul li a {
+   
+    font-size: 1.5rem;
+    padding: 10px 20px;
+    text-decoration: none;
+    color:black;
+
+
+   
+    }
+    #home {
+    padding: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(235 232 229);
+
+}
+    .home-left{
+        padding: 65px;
+   }
+.home-left h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+    color:#f53117 ;
+
+}
+   
+.home-right img {
+ width: 180px;
+ margin-left:60px ;
+/* margin-bottom: 200px;*/
+
+}
+.home-right {
+    height: 330px;
+    width: 300px;
+    cursor: pointer;
+    transition: all .5s ease-in;
+    border-top-right-radius: 130px;
+    border-bottom-left-radius: 130px;
+    background-color: rgb(245, 49, 23);
+    box-shadow: 0px 0px 12px 0px rgb(47 53 79);
+}
+
+#delivery h1{
+    
+    text-align: center;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    text-shadow: 2px 2px 8px #FF0000;
+
+}
+
+
+.partners {
+    display: flex;
+   
+    align-items: center;
+    justify-content: center;
+}
+
+
+ .partner-1{
+    width: 350px;
+    margin: 15px;
+    padding: 15px;
+    text-align: center;
+    border-radius: 10px;
+     box-shadow: 0px 0px 12px -1px black;
+     background-color:#008B8B;
+ }
+ .partner-1:hover {
+    transform: translateY(-12px);
+}
+
+
+ .partner-2{
+    width: 350px;
+    margin: 15px;
+    padding: 17px;
+    text-align: center;
+    border-radius: 10px;
+     box-shadow: 0px 0px 12px -1px black;
+     background-color:#DB7093 ;
+
+ }
+ .partner-2:hover {
+    transform: translateY(-12px);
+}
+
+
+.partner-3{
+    width: 350px;
+    margin: 15px;
+    padding: 8px;
+    text-align: center;
+    border-radius: 10px;
+     box-shadow: 0px 0px 12px -1px black;
+     background-color:#008B8B ;
+ }
+
+.partner-3:hover {
+    transform: translateY(-12px);
+}
+
+
+
+.partner-1 img {
+    width:100px;
+
+}
+.partner-2 img {
+    width: 100px;
+}
+.partner-3 img {
+    width: 100px;
+}
+
+
+#chef-main h1{
+    text-align: center;
+    margin-bottom: 15px;
+    margin-top: 15px;
+text-shadow: 0 0 3px #FF0000;
+}
+
+.chefs {
+    display: flex;
+    justify-content: center;
+/*    background-color:rgb(235 232 229) ;*/
+}
+
+.chef-item {
+    margin: 15px;
+    padding: 9px;
+      
+}
+
+.chef-item:hover {
+    transform: scale(1.1)
+}
+
+.chef-item img {
+    width: 250px;
+    border-radius: 20px;
+  box-shadow: 0px 0px 12px -1px black;
+}
+
+
+
+
+footer {
+    padding: 10px;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 20px;
+   background-color:rgb(235 232 229) ;
+}
+    </style>
+</head>
+<body>
+    
+    <nav class="navbar">
+        <div class="image">
+            <img src="D:\CSS\images\cheflogo-removebg-preview.png"width="70px" height="70px"></div>
+        <div class="left">
+            <h1>Chef</h1>
+        </div>
+        <div class="right">
+            <ul class="list">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="specialdishes.html">Special Dishes</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </div>
+</nav>
+
+<div id="home">
+<div class="home-left">
+    <h1>Fastest <br>Delivery & <br> Easy Pickup</h1>
+            <p> Hey, you're hungry but you don't have time to go out.We get it!
+            <br> Order some food right now, and we'll deliver it right to your door.</p>
+        </div>
+        <div class="home-right">
+            <img src="D:\CSS\images\homechef1-removebg-preview.png" alt="">
+            
+        </div>
+    </div>
+    <div id="delivery">
+    <h1>WHY CHOOSE US ?</h1>
+        <div class="partners">     
+            <div class="partner-1">
+                <img id="left " src="D:\CSS\images\order.jpg" alt="">
+                <h3>Easy To Order</h3>
+                <p>The best online ordering experience for your food business's customers comes with a mobile app and a direct ordering webpage in your brand design.Commission-free and easy with EasyOrder. </p>
+            </div>
+            <div class="partner-2 ">
+                <img id="center" src="D:\CSS\images\order1-removebg-preview.png" alt="">
+                <h3>Fastest Delivery</h3>
+                <p>Fast food delivery has been on the rise for some time,and the pandemic has only accelerated this trend.Today,a total of 74% (40 million) adults say that they use takeaway or fast food delivery services.</p>
+            </div>
+            <div class="partner-3">
+                <img id="right" src="D:\CSS\images\order2.jpg" alt="">
+                <h3>Best Quality</h3>
+                <p>High-quality foods include unrefined,minimally processed foods such as vegetables and fruits,whole grains,healthy fats and healthy sources of protein the foods recommended in the Healthy Eating Plate.</p>
+            </div>
+        </div>
+    </div>
+        <div id="chef-main">
+        <h1>Our Awesome Chef's</h1>
+        <div class="chefs">
+            <div class="chef-item">
+                <img id="left" src="D:\CSS\images\chef5.jpg" alt="">
+                
+            </div>
+            <div class="chef-item">
+                <img id="center" src="D:\CSS\images\chef3.jpg" alt="">
+               
+            </div>
+            <div class="chef-item">
+                <img id="right" src="D:\CSS\images\chef1.jpg" alt="">
+                
+            </div>
+        </div>
+    </div>
+</div>
+
+    
+        <footer>
+        <h5> @Carpoo|Venom All Right Reserved</h5>
+    </footer>
+    
+</body>
+</html>
